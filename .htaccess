@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/(admin)/
+RewriteRule !\.(js|ico|gif|jpg|png|css|pdf|xml|svg)$ index.php

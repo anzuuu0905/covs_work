@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule !\.(js|ico|gif|jpg|png|css|pdf|xml)$ index.php
+
+AuthUserFile /home/shirouma/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Input your ID and Password"
+AuthType Basic
+require valid-user
