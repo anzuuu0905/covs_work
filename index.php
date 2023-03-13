@@ -7,7 +7,7 @@ include('config.php');
 
 /* 定数を定義 */
 define('ROOT_DIRECTORY', str_replace('/index.php', '', $_SERVER['PHP_SELF']));  //index.phpが置いてあるディレクトリ
-define('SITE_URL', 'https://' . $_SERVER['HTTP_HOST'] . ROOT_DIRECTORY); //サイトトップのURL
+define('SITE_URL', 'http://' . $_SERVER['HTTP_HOST'] . ROOT_DIRECTORY); //サイトトップのURL
 
 $current_page = $_SERVER['REQUEST_URI'];
 if (strpos($current_page, '?') !== false) {

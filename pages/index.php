@@ -82,7 +82,10 @@ Creating A World Class Mountain Destination</h2>
 </div><!-- sub -->
 
 </div><!-- #content -->
-		<p class="ate">講演・パネリスト等のご依頼、ご質問は、<a href="http://www.shiroumaso.com/contact.html" class="border" target="_blank">こちら</a>からお願い致します。<a href="https://www.instagram.com/toshiromaruyama/" target="_blank" class="ateSns"><img src="<?php print_file('images/banner_link_3.png'); ?>" alt="Toshiro Maruyama Instagram"></a></p>
+		<p class="ate">
+			<!-- 講演・パネリスト等のご依頼、ご質問は、<a href="http://www.shiroumaso.com/contact.html" class="border" target="_blank">こちら</a>からお願い致します。 -->
+			<a href="https://www.instagram.com/toshiromaruyama/" target="_blank" class="ateSns"><img src="<?php print_file('images/banner_link_3.png'); ?>" alt="Toshiro Maruyama Instagram"></a>
+		</p>
 </div><!-- #container -->
 
 <?php include "elements/footer.php"; ?>

@@ -393,17 +393,19 @@ a.sideMore:after:hover{
 }
 .ate {
     padding: 2% 0;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     display: block;
-    margin: 0 auto 80px;
+    /* margin: 0 auto 80px; */
+		margin: 0 auto;
     width: 60%;
     text-align: center;
 		position: relative;
 }
 .ateSns{
-	position: absolute;
-	top: 0;
-	left: -220px;
+	/* position: absolute; */
+	/* top: 0; */
+	/* left: -220px; */
+	display: inline-block;
 }
 .box {
 	padding: 15px;
